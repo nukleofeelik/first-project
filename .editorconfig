@@ -1,0 +1,34 @@
+# http://editorconfig.org
+
+# Properti khusus yang harus ditentukan pada bagian atas berkas sebelum
+# bagian lain. Atur ke "true" untuk menghentikan pencarian berkas .editorconfig pada berkas saat ini
+root = true
+
+[*]
+# Gaya indentasi
+# Nilai yang dapat digunakan - tab, space
+indent_style = space
+
+# Ukuran indentasi dalam karakter spasi tunggal
+# Nilai yang dapat digunakan - an integer, tab
+indent_size = 2
+
+# Karakter akhir baris
+# Nilai yang dapat digunakan - lf, crlf, cr
+end_of_line = lf
+
+# Pengodean karakter berkas
+# Nilai yang dapat digunakan - latin1, utf-8, utf-16be, utf-16le
+charset = utf-8
+
+# Menunjukkan apakah program akan memangkas spasi kosong di akhir baris
+# Nilai yang dapat digunakan - true, false
+trim_trailing_whitespace = true
+
+# Nonaktifkan untuk Markdown karena spasi kosong tambahan sangat diperlukan pada bahasa ini
+[*.md]
+trim_trailing_whitespace = false
+
+# Menunjukkan apakah berkas harus diakhiri dengan baris baru
+# Nilai yang dapat digunakan - true, false
+insert_final_newline = true

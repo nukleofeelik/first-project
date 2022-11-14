@@ -1,20 +1,18 @@
 body {
-    background-color: rgb(87, 50, 13);
+  background-color: rgb(87, 50, 13);
 }
-.menu{
-    padding-top:5px;
+.menu {
+  padding-top: 5px;
 }
-.menu__link{
-    display: flex;
-    justify-content: center;  
-    
-    
+.menu__link {
+  display: flex;
+  justify-content: center;
 }
-.menu__link_home:{
-    color: white;
-    text-decoration: none;
+.menu__link_home {
+  color: white;
+  text-decoration: none;
 }
-.menu__link_about{
-    color: white;
-    text-decoration: none;
+.menu__link_about {
+  color: white;
+  text-decoration: none;
 }
