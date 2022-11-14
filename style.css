@@ -6,10 +6,15 @@ body {
 }
 .menu__link{
     display: flex;
-    flex-direction: row;
+    justify-content: center;  
+    
     
 }
-.menu__link:hover{
+.menu__link_home:{
+    color: white;
     text-decoration: none;
-    color:aliceblue;
+}
+.menu__link_about{
+    color: white;
+    text-decoration: none;
 }
