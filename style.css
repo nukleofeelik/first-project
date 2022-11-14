@@ -3,11 +3,11 @@ body {
 }
 .menu {
   padding-top: 5px;
-}
-.menu__link {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 .menu__link_home {
   color: white;
   text-decoration: none;
